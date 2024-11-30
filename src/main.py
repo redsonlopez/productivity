@@ -7,7 +7,7 @@ st.set_page_config(
     layout="wide",
 )
 
-df= pd.read_csv("https://raw.githubusercontent.com/redsonlopez/productivity/data/dataset.csv")
+df= pd.read_csv("https://github.com/redsonlopez/productivity/blob/main/data/dataset.csv")
 
 view_option = st.sidebar.radio('Escolha o tipo de exibição', ('Introdução', 'Gráficos', 'Relatório'))
 
